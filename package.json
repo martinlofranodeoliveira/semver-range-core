@@ -1,0 +1,14 @@
+{
+  "name": "semver-range-core",
+  "version": "0.1.0",
+  "description": "Strict semver parsing plus bounded range matching: exact, caret, tilde, comparators and partials. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/semver.test.js",
+    "demo": "node bin/semver-range.mjs --assert"
+  }
+}
